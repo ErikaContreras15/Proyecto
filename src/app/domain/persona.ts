@@ -1,6 +1,7 @@
 export class Persona {
-    uid?: string;
-    id?: string;
-    dni?: string;
-    name?: string;
+  
+    apellido:string='';
+    cedula:string ='';
+    nombre:string ='';
+    correo:string='';
 }
